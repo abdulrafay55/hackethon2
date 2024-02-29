@@ -1,0 +1,214 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar{
+    padding: 10px !important;
+    box-sizing: border-box !important;
+    background-color: white;
+    border-bottom: 1px solid rgb(245, 243, 243);
+    position: sticky !important;
+    top: 0px;
+    transition: background-color 0.4s ease-in-out !important;
+    z-index: 10000;
+}
+
+
+.navbar-brand{
+    font-size: 35px !important;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 900;
+}
+.nav-link{
+    color: rgb(0, 0, 0) !important;
+}
+.nav-item{
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn{
+    background-color: rgb(255, 179, 14) !important;
+    border-radius: 0% !important;
+    border: none !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    padding: 15px !important;
+}
+.btn:hover{
+    color: white !important;
+    background-color: black !important;
+    transition: 1s all ease;
+}
+.ri-search-line{
+    font-size: 25px;
+    color: rgb(16, 8, 1);
+    text-decoration: none !important;
+    position: relative;
+    top: 10px;
+}
+.d-flex{
+    gap: 20px;
+}
+.navbar-link,.ri-search-line:hover{
+    color: rgb(254, 149, 58) !important;
+}
+#a{
+    color: rgb(255, 143, 51);
+}
+/* first sec  */
+.fsec{
+    background-color: rgb(255, 179, 14);
+    width: 100%;
+    padding: 8%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.div1{
+    width: 45%;
+    
+}
+.fheading{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: white;
+}
+.fpara{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: rgb(131, 131, 131);
+}
+.childdiv{
+    width: 100%;
+    background-color: rgb(255, 254, 254);
+    padding: 15px;
+    border-radius: 10px;
+}
+.bdiv{
+    border-bottom: 1px solid lightgrey;
+}
+.fb1{
+    background-color: #FDE9DE;
+    border: none;
+    color: rgb(255, 128, 0);
+    padding: 3px;
+    width: 106px;
+}
+.fb2{
+    border: none;
+    color: rgb(151, 148, 148);
+    padding: 3px;
+    width: 106px;
+}
+.finp{
+    padding: 6px;
+    background-color: rgb(238, 238, 238);
+    border: none;
+    width: 73%;
+    margin-top: 20px;
+}
+.fbtn{
+    padding: 2px;
+    border: none;
+    width: 126px;
+    background-color: rgb(255, 128, 0);
+    color: white;
+    font-size: 17px;
+    height: 35px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.div2{
+    width: 50%;
+}
+.mainimg{
+    width: 100%;
+}
+.sec2{
+    background-color: rgb(241, 240, 240);
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.card1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 1px 1px 7px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.sec2div1{
+    width: 30%;
+    padding: 4%;
+}
+.sec2div2{
+    width: 70%;
+}
+.cimg{
+    width: 100%;
+    border-radius: 20px;
+}
+.sheading{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.a{
+    color: rgb(255, 128, 0);
+}
+.spara{
+    color: rgb(167, 164, 164);
+}
+.sbtn{
+    background-color: rgb(255, 128, 0);
+    border: none;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+@media (max-width:800px) {
+    .fsec{
+        display: block;
+    }
+    .div1{
+        width: 100%;
+    }
+    .div2{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:920px) {
+    .card1{
+        display: block;
+    }
+    .sec2div1{
+        width: 100%;
+    }
+    .sec2div2{
+        width: 100%;
+    }
+}
+@media (min-width:1250px) and (max-width:1450px) {
+    .sec2div2{
+        height: 50vh;
+    }
+    .cimg{
+        height: 65vh;
+    }
+}
+@media (min-width:870px) and (max-width:1250px) {
+    .sec2div2{
+        height: 50vh;
+    }
+    .cimg{
+        height: 62vh;
+    }
+}
